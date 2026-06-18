@@ -1,16 +1,25 @@
-## Hi there 👋
+class Vineeth:
+    def __init__(self):
+        self.name = "Vineeth TP"
+        self.location = "Kerala, India"
+        self.degree = "B.Tech in ECE, APJ Abdul Kalam Technological University (KTU)"
+        self.stack = ["Python", "NumPy", "Pandas", "Scikit-learn", "PyTorch"]
+        self.currently_learning = [
+            "Deep Learning fundamentals",
+            "Kaggle Titanic competition",
+            "Multimodal AI & agentic systems"
+        ]
+        self.fun_fact = (
+            "Has terraformed more virtual worlds in Minecraft "
+            "than ML models deployed to production — for now."
+        )
 
-<!--
-**zev-walker/zev-walker** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def motto(self):
+        return (
+            "The Universe is under no obligation to make sense to us, "
+            "so we build models to understand it anyway."
+        )
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+vineeth = Vineeth()
+print(vineeth.motto())
